@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ***************************************************
+   ************     let's start coding        *****************
+   **************************************************** -->
+
+
+  <!-- =============================================
+    RESPONSIVE NAVIGATION BAR  (SECTION: 1)
+   ============================================= -->
+
+  <section class="hearder_container">
+    <header class="mb_nav navbar">
+      <div class="logo"><a href="#"><img src="images/logo.svg" alt="Sunnyside’s logo"></a></div>
+      <div class="humburger_menu">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <div><button> Contact</button></div>
+      </div>
+      <div><img src="images/icon-hamburger.svg" alt="toggle button" class='toggle'></div>
+    </header>
+    <div class="banner-wrap">
+      <h1>We are creatives</h1>
+      <a href="#content"><img src="images/icon-arrow-down.svg" alt="Arrow Down"></a>
+    </div>
+  </section>
+
+  <!-- =============================================
+   FACTURES CONTAINER (SECTION: 2)
+  ============================================= -->
+
+  <section class="features_container">
+
+    <!-- ============================================================
+   Article container to store a image and text (ARTICLE CONTAINER 1 )
+  ==================================================================== -->
+
+    <article>
+
+      <!-- =============================================
+       RIGHT container to store a IMAGE
+       ============================================= -->
+
+      <div id="content" class="right_container">
+
+        <img src="images/mobile/image-transform.jpg" alt="transform">
+
+      </div>
+
+      <!-- =============================================
+       LEFT container to store a TEXT
+       ============================================= -->
+
+      <div class="left_container">
+        <div class="container_text">
+          <h1>Transform your brand</h1>
+          <p>We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- ============================================================
+   Article container to store a image and text (ARTICLE CONTAINER 2 )
+  ==================================================================== -->
+
+    <article>
+
+      <!-- =============================================
+       LEFT container to store a IMAGE
+       ============================================= -->
+
+      <div class="left_container">
+
+        <img src="images/mobile/image-stand-out.jpg" alt="stand-out">
+
+      </div>
+
+      <!-- =============================================
+       RIGHT container to store a TEXT
+       ============================================= -->
+
+      <div class="right_container">
+        <div class="container_text">
+          <h1>Stand out to the right audience</h1>
+          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+            we’ll build and extend your brand in digital places. </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- ============================================================
+   Article container to store a text (ARTICLE CONTAINER 3 )
+  ==================================================================== -->
+
+    <article>
+
+      <!-- =============================================
+       LEFT CONTAINER FOR GRAPHIC DESIGN 
+       ============================================= -->
+
+      <div class="left_container">
+        <div class="container_text">
+          <h1>Graphic design</h1>
+          <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+            potential clients’ attention.
+          </p>
+        </div>
+      </div>
+
+      <!-- =============================================
+       RIGHT CONTAINER FOR PHOTOGRAPHY 
+       ============================================= -->
+
+      <div class="right_container">
+        <div class="container_text">
+          <h1>Photography</h1>
+          <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business
+            image.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- =============================================
+   CLIENT TESTIMONIAL CONTAINER (SECTION: 3)
+  ============================================= -->
+
+  <section class="client_testimonial">
+    <h2>Client testimonials</h2>
+    <div class="testimonial">
+
+      <!-- =============================================
+       EMILY PROFILE
+       ============================================= -->
+
+      <div class="profile">
+        <img src="images/image-emily.jpg" alt="emily">
+        <div class="text">
+          <article>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+            always hit.</article>
+          <h3>Emily R.</h3>
+          <span>Marketing Director</span>
+        </div>
+      </div>
+
+      <!-- =============================================
+       THOMAS PROFILE 
+       ============================================= -->
+
+      <div class="profile">
+        <img src="images/image-thomas.jpg" alt="thomas">
+        <div class="text">
+          <article>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying
+            and enjoyable experience.</article>
+          <h3>Thomas S.</h3>
+          <span>Chief Operating Officer</span>
+        </div>
+      </div>
+
+      <!-- =============================================
+       JENNIE PROFILE
+       ============================================= -->
+
+      <div class="profile">
+        <img src="images/image-jennie.jpg" alt="jennie">
+        <div class="text">
+          <article>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+            recommended!</article>
+          <h3>Jennie F.</h3>
+          <span>Business Owner</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+  PICTURE GALLERY  CONTAINER FOR MOBILES (SECTION: 4)
+  ============================================= -->
+
+  <section>
+    <div class="gallery">
+      <div class="row1"><img src="images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
+        <img src="images/mobile/image-gallery-orange.jpg" alt="organge">
+      </div>
+      <div class="row2"><img src="images/mobile/image-gallery-cone.jpg" alt="ice cream cone">
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="sugar cubes">
+      </div>
+  </section>
+  <!-- =============================================
+  PICTURE GALLERY  CONTAINER FOR DESKTOP (SECTION: 4)
+  ============================================= -->
+
+  <section>
+    <div class="gallery_desktop">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="organge">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="ice cream cone">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugar cubes">
+    </div>
+  </section>
+  <!-- =============================================
+    FOOTER (SECTION: 5)
+    ============================================= -->
+
+  <footer>
+    <div class="footer_logo"><a href="#" class="footer_logo"><img src="images/logo.svg" alt="Sunnyside’s logo"></a>
+    </div>
+
+    <nav><a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+    </nav>
+
+    <div class="social_icon">
+      <a href="#"><img src="images/icon-facebook.svg" alt="facebook"></a>
+      <a href="#"><img src="images/icon-instagram.svg" alt="instagram"></a>
+      <a href="#"><img src="images/icon-twitter.svg" alt="icon-twitter"></a>
+      <a href="#"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+    </div>
+  </footer>
+
+
+  <!-- =============================================
+    DEFAULT (SECTION:6)
+    ============================================= -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <!-- ***************************************************
+   ************          END         *****************
+   **************************************************** -->
+
+</body>
+<script>
+  const navbtn = document.querySelector('.toggle');
+  const mb_nav = document.querySelector('.mb_nav');
+  navbtn.addEventListener('click', (e) => {
+    mb_nav.classList.toggle('active');
+  })
+</script>
+
+</html>
